@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React JS is a library that is used for building user interfaces. React allows us to write DRY code by seperating our apps into components. Through the use of reacts virtual DOM we can update UI more smoothly with the use of states.  
+
 - [ ] What does it mean to _think_ in react?
+  Thinking in react is the thought process of breaking down your apps into components. So using mock ups for example to break your UI and app into a component hierarchy before you start building the app.
 
 - [ ] Describe state.
 
+  It's the part of the app which can change. Components for example can update and the page can be rerendered based on interactions with objects in the app. 
+
 - [ ] Describe props.
+  
+  Props are properties in react that can be used to pass data from one component to another, but only in one direction from parent to child to granchild and so on.
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+  Side effects are changes that can be obbserved when a function or calculation is completed besides the return value of the function.
+
+
 
 ## Project Set Up
 
